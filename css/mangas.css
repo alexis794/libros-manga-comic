@@ -1,10 +1,11 @@
 body{
     padding: 0;
     margin: 0;
+    font-family: cursive;
 }
 
 header{
-    background-color: black;
+    background-image: linear-gradient(rgb(255, 251, 21) , rgba(238, 255, 0, 0.5));
 }
 .logo{
     text-align: center;
@@ -29,4 +30,12 @@ a{
 .col-lg-12{
     text-align: center;
     background-color: black;
+}
+
+.contenedor{
+    justify-content: space-between;
+    flex-direction: row;
+    display: flex;
+    margin: 0;
+    margin: 0;
 }
