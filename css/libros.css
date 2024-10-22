@@ -6,21 +6,20 @@ body{
 header{
     background-color: black;
 }
-.logo{
-    text-align: center;
-
-}
-.img{
-    border-radius: 60px;
-}
-a{
-    font-size: 30px;
-}
 .titulo{
     color: white;
 }
+.logo{
+    text-align: center;
+}
+.fotoini{
+    border-radius: 160px;
+}
+a{
+    font-size: 20px;
+}
 .textcuen{
-    font-size: 30px;
+    font-size: 20px;
 }
 .regis{
     font-size: 20px;
