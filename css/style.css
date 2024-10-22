@@ -1,0 +1,129 @@
+@import url(https://use.fontawesome.com/releases/v6.4.2/css/all.css);
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #b37541;
+}
+
+header{
+    background-color: #ba8050;
+}
+.titulo{
+    color: white;
+}
+.logo{
+    text-align: center;
+}
+.fotoini{
+    border-radius: 160px;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #ba8050;
+    color: white;
+}
+.margi{
+    background-color: #ba8050;
+}
+.textcuen{
+    font-size: 20px;
+}
+.regis{
+    font-size: 20px;
+}
+
+.col-lg-12{
+    text-align: center;
+    background-color: #ba8050;
+}
+
+.contenerdor1{
+    margin-top: 40px;
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+}
+
+.nombreautores-libros1{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.libro1{
+    height: 380px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.libro2{
+    height: 380px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.libro3{
+    height: 380px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.contenerdor2{
+    margin-top: 40px;
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+}
+
+.libro4{
+    height: 380px;
+    width: 300px;
+    border-radius: 20px;
+    color: cy;
+}
+
+.libro5{
+    height: 380px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.libro6{
+    height: 380px;
+    width: 300px;
+    border-radius: 20px;
+}
+.nombreautores-libros1{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.a-redes{
+    margin: 0 100px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background: #ba8050;
+    width: 100px;
+    height: 100px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 2.5em;
+    margin-left: 160px;
+    margin-top: 80px;
+    -webkit-box-reflect: below 5px linear-gradient(to 
+    bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.4));
+}
+
+.a-redes:hover {
+    background: var(--color);
+    box-shadow: 0 0 5px var(--color),
+    0 0 25px var(--color),
+    0 0 50px var(--color),
+    0 0 200px var(--color);
+}

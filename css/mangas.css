@@ -11,17 +11,23 @@ header{
     text-align: center;
 
 }
-.img{
-    border-radius: 60px;
-}
-a{
-    font-size: 30px;
-}
 .titulo{
     color: white;
 }
+.fotoini{
+    border-radius: 160px;
+}
+a{
+    font-size: 20px;
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+.margi{
+    background-color: black;
+}
 .textcuen{
-    font-size: 30px;
+    font-size: 20px;
 }
 .regis{
     font-size: 20px;
