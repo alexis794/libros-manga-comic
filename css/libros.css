@@ -1,10 +1,11 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: #b37541;
 }
 
 header{
-    background-color: black;
+    background-color: #ba8050;
 }
 .titulo{
     color: white;
@@ -17,6 +18,12 @@ header{
 }
 a{
     font-size: 20px;
+    text-decoration: none;
+    background-color: #ba8050;
+    color: white;
+}
+.margi{
+    background-color: #ba8050;
 }
 .textcuen{
     font-size: 20px;
@@ -27,5 +34,61 @@ a{
 
 .col-lg-12{
     text-align: center;
-    background-color: black;
+    background-color: #ba8050;
+}
+
+.contenerdor1{
+    margin-top: 40px;
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+}
+
+.nombreautores-libros1{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.libro1{
+    height: 380px;
+    width: 300px;
+}
+
+.libro2{
+    height: 380px;
+    width: 300px;   
+}
+
+.libro3{
+    height: 380px;
+    width: 300px;
+}
+
+.contenerdor2{
+    margin-top: 40px;
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+}
+
+.libro4{
+    height: 380px;
+    width: 300px;
+}
+
+.libro5{
+    height: 380px;
+    width: 300px;   
+}
+
+.libro6{
+    height: 380px;
+    width: 300px;
+}
+.nombreautores-libros1{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    color: white;
 }
