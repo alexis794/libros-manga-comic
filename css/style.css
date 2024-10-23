@@ -5,7 +5,7 @@ body{
     background-color: #b4522e;
 }
 header{
-    background-color: #bb6215;
+    background-image: linear-gradient( #ba8050, #b4522e);
 }
 .titulo{
     color: white;
@@ -14,16 +14,13 @@ header{
     text-align: center;
 }
 .fotoini{
-    border-radius: 160px;
+    width: 700px;
 }
 a{
     font-size: 20px;
-    text-decoration: none;
-    background-color: #b4522e;
-    color: white;
-}
-.margi{
-    background-color: #bb6215;
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+    border: none;
 }
 .textcuen{
     font-size: 20px;
@@ -31,10 +28,16 @@ a{
 .regis{
     font-size: 20px;
 }
-
-.col-lg-12{
+.btn{
+    text-decoration: none;
+    background-color: #b4522e;
+    border: none;
+}
+.menu{
     text-align: center;
-    background-image: linear-gradient(#bb6215, #b4522e);
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+
 }
 
 .contenerdor1{
