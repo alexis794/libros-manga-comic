@@ -1,18 +1,19 @@
+@import url(https://use.fontawesome.com/releases/v6.4.2/css/all.css);
 body{
     padding: 0;
     margin: 0;
-    font-family: cursive;
+    font-family: fantasy;
+    box-sizing: border-box;
 }
-
 header{
-    background-image: linear-gradient(rgb(255, 251, 21) , rgba(238, 255, 0, 0.5));
+    background-image: linear-gradient(rgb(48, 3, 3) , rgb(141, 0, 0));
 }
 .logo{
     text-align: center;
 
 }
 .titulo{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .fotoini{
     border-radius: 160px;
@@ -20,11 +21,11 @@ header{
 a{
     font-size: 20px;
     text-decoration: none;
-    background-color: black;
-    color: white;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
 }
 .margi{
-    background-color: black;
+    background-color: rgb(0, 0, 0);
 }
 .textcuen{
     font-size: 20px;
@@ -33,15 +34,114 @@ a{
     font-size: 20px;
 }
 
-.col-lg-12{
+.menu{
     text-align: center;
-    background-color: black;
+    background-color: rgba(255, 255, 255, 0);
+
+}
+.contenedor{
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+}
+.h1{
+    text-align: center;
+    color: red;
 }
 
-.contenedor{
-    justify-content: space-between;
-    flex-direction: row;
+.futuro{
+    width: 100%;
+    min-height: 150vh;
     display: flex;
-    margin: 0;
-    margin: 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    background-color: rgb(141, 0, 0);
+    background: adial-gradient(circle, rgb(255, 0, 0
+    1) 0%, (rgb(255, 0, 0)) 100%);
+}
+
+.box{
+    position: absolute;
+    width: 380px;
+    height: 600px;
+    cursor: pointer;
+    box-shadow: 2px 3px 12px 9px rgb(199, 2, 2);
+    filter: grayscale(1);
+    transition: top ,2.8s;
+}
+.box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box:nth-child(1){
+    top: 100px;
+}
+.box:nth-child(1):hover{
+    top: 40px;
+    filter: grayscale(0);
+    box-shadow: 2px 2px 29px 0px vio;
+}
+.box:nth-child(2){
+    top: 160px
+}
+.box:nth-child(2):hover{
+    top: 100px;
+    filter: grayscale(0);
+    box-shadow: 2px 2px 29px 0 rgb(255, 0, 0);
+}
+.box:nth-child(3){
+    top: 220px
+}
+.box:nth-child(3):hover{
+    top: 100px;
+    filter: grayscale(0);
+    box-shadow: 2px 2px 29px 0 rgb(255, 0, 0);
+}
+.box:nth-child(4){
+    top: 280px
+}
+.box:nth-child(4):hover{
+    top: 100px;
+    filter: grayscale(0);
+    box-shadow: 2px 2px 29px 0 rgb(255, 1, 1);
+}
+.box:nth-child(5){
+    top: 340px
+}
+.box:nth-child(5):hover{
+    top: 100px;
+    filter: grayscale(0);
+    box-shadow: 2px 2px 29px 0 rgb(255, 0, 0);
+}
+
+.a-redes{
+    margin: 0 100px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    background: #910000;
+    width: 100px;
+    height: 100px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 2.5em;
+    margin-left: 160px;
+    margin-top: 80px;
+    -webkit-box-reflect: below 5px linear-gradient(to 
+    bottom, rgba(255, 0, 0, 0), rgb(0, 0, 0));
+}
+
+.a-redes:hover {
+    background: var(--color);
+    box-shadow: 0 0 5px var(--color),
+    0 0 25px var(--color),
+    0 0 50px var(--color),
+    0 0 200px var(--color);
 }
