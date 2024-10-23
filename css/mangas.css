@@ -118,6 +118,14 @@ a{
     box-shadow: 2px 2px 29px 0 rgb(255, 0, 0);
 }
 
+.text-caro{
+    text-align: center;
+    background-color: rgb(141, 0, 0) ;
+    font-family: fantasy;
+    color: black;
+    margin: 0;
+}   
+
 .a-redes{
     margin: 0 100px;
     border-radius: 50%;
