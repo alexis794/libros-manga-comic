@@ -2,10 +2,10 @@
 body{
     padding: 0;
     margin: 0;
-    background-color: #b37541;
+    background-color: #b4522e;
 }
 header{
-    background-color: #ba8050;
+    background-color: #bb6215;
 }
 .titulo{
     color: white;
@@ -19,11 +19,11 @@ header{
 a{
     font-size: 20px;
     text-decoration: none;
-    background-color: #ba8050;
+    background-color: #b4522e;
     color: white;
 }
 .margi{
-    background-color: #ba8050;
+    background-color: #bb6215;
 }
 .textcuen{
     font-size: 20px;
@@ -34,7 +34,7 @@ a{
 
 .col-lg-12{
     text-align: center;
-    background-color: #ba8050;
+    background-image: linear-gradient(#bb6215, #b4522e);
 }
 
 .contenerdor1{

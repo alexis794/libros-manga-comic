@@ -6,14 +6,14 @@ body{
     box-sizing: border-box;
 }
 header{
-    background-image: linear-gradient(rgb(48, 3, 3) , rgb(141, 0, 0));
+    background-image: linear-gradient(#c4722a, #FF7F50);
 }
 .logo{
     text-align: center;
 
 }
 .titulo{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 0, 0);
 }
 .fotoini{
     border-radius: 160px;
@@ -21,11 +21,10 @@ header{
 a{
     font-size: 20px;
     text-decoration: none;
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
 }
 .margi{
-    background-color: rgb(0, 0, 0);
+
 }
 .textcuen{
     font-size: 20px;
@@ -48,7 +47,7 @@ a{
 }
 .h1{
     text-align: center;
-    color: red;
+    color: rgb(0, 0, 0);
 }
 
 .futuro{
@@ -59,9 +58,9 @@ a{
     align-items: center;
     flex-direction: column;
     position: relative;
-    background-color: rgb(141, 0, 0);
+    background-color: #FF7F50;
     background: adial-gradient(circle, rgb(255, 0, 0
-    1) 0%, (rgb(255, 0, 0)) 100%);
+    1) 0%, (rgb(255, 255, 255)) 100%);
 }
 
 .box{
